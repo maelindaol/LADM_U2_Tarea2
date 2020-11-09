@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Hilo: "
+        android:textColor="#000fff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttoninicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INICIAR" />
+    <Button
+        android:id="@+id/buttonpause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAUSAR/DESPAUSAR" />
+    <Button
+        android:id="@+id/buttonreinicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REINICIAR" />
+    <Button
+        android:id="@+id/buttondetener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETENER" />
+
+</LinearLayout>
